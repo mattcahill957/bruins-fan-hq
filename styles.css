@@ -130,17 +130,17 @@ footer {
     cursor: pointer;
 }
 
-.win {
+.game-card.win {
     border-color: green;
     font-weight: bold;
 }
 
-.loss {
+.game-card.loss {
     border-color: red;
     font-weight: bold;
 }
 
-.ot-loss {
+.game-card.ot-loss {
     border-color: orange;
     font-weight: bold;
 }
