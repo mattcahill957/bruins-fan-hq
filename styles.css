@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.team-logo {
+    height: 25vh;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.team-container {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000; 
+    color: #ffb81c;
+    border-bottom: 5px solid #ffb81c;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background-color: #222222;
+    color: #ffb81c;
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav a {
+    color: #ffb81c;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+}
+
+.recent-game-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.game-card {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.game-card:hover {
+    border: #000000 3px solid;
+    cursor: pointer;
+}   
