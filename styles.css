@@ -71,4 +71,61 @@ main {
 .game-card:hover {
     border: #000000 3px solid;
     cursor: pointer;
-}   
+}
+
+.upcoming-game-container {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.upcoming-game-card {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.upcoming-game-card:hover {
+    border: #000000 3px solid;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffb81c;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.player-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.player-card {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    text-align: center;
+}
+
+.player-card:hover {
+    border: #000000 3px solid;
+    cursor: pointer;
+}
