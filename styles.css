@@ -77,8 +77,8 @@ main {
     display: grid;
     grid-template-columns: 1;
     gap: 10px;
-    width: 100%;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .upcoming-game-card {
