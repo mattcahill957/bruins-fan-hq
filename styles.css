@@ -129,3 +129,18 @@ footer {
     border: #000000 3px solid;
     cursor: pointer;
 }
+
+.win {
+    border-color: green;
+    font-weight: bold;
+}
+
+.loss {
+    border-color: red;
+    font-weight: bold;
+}
+
+.ot-loss {
+    border-color: orange;
+    font-weight: bold;
+}
