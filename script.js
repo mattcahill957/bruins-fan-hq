@@ -8,6 +8,7 @@ const recentGames = [
 
 document.addEventListener("DOMContentLoaded", () => {
     const recentGamesContainer = document.getElementById("recent-games");
+    if (!recentGamesContainer) return; // not on home page
 
     recentGames.forEach(game => {
         const gameCard = document.createElement("div");
