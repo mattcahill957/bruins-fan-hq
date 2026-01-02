@@ -100,11 +100,22 @@ main {
 }
 
 footer {
-    background-color: #000000;
-    color: #ffb81c;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
+  background-color: #000000;
+  color: #ffb81c;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 900px;   
+  margin: 0 auto;
+  padding: 0 20px;    
+  text-align: center;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #ffcf5c;     
 }
 
 .player-card-container {
