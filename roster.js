@@ -1,24 +1,3 @@
-const recentGames = [
-    {opponent: "Oilers", location: "away", result: "Win", score: "6-2"},
-    {opponent: "Flames", location: "away", result: "OT Loss", score: "2-1"},
-    {opponent: "Sabres", location: "away", result: "Loss", score: "4-1"},
-    {opponent: "Canadiens", location: "home", result: "Loss", score: "6-2"},
-    {opponent: "Senators", location: "home", result: "Loss", score: "6-2"},
-];
-
-document.addEventListener("DOMContentLoaded", () => {
-    const recentGamesContainer = document.getElementById("recent-games");
-    if (!recentGamesContainer) return; // not on home page
-
-    recentGames.forEach(game => {
-        const gameCard = document.createElement("div");
-        gameCard.className = "game-card";
-        gameCard.textContent = `Bruins ${game.location === "home" ? "vs." : "@"} ${game.opponent} - ${game.result} ${game.score}`;
-        recentGamesContainer.appendChild(gameCard);
-        gameCard.classList.add(game.result.toLowerCase().replace(" ", "-"));
-    });
-});
-
 const playerCards = [
     {id: 1, name: "David Pastrnak", position: "RW", number: 88, country: "Czech Republic", height: "6'0\"", weight: 199},
     {id: 2, name: "Morgan Geekie", position: "C", number: 39, country: "Canada", height: "6'3\"", weight: 212},

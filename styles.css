@@ -50,8 +50,9 @@ main {
 }
 
 .recent-game-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
     gap: 10px;
     width: 100%;
     margin-top: 20px;
@@ -66,6 +67,7 @@ main {
     padding: 24px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: bold;
+    min-width: 330px;
 }
 
 .game-card:hover {
