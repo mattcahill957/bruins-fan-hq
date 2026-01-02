@@ -1,6 +1,6 @@
 # Bruins Fan HQ 🏒
 
-A personal front-end project built to practice HTML, CSS, and responsive layout techniques while celebrating my favorite NHL team — the Boston Bruins.
+A personal front-end project built to practice HTML, CSS, JavaScript and responsive layout techniques while celebrating my favorite NHL team — the Boston Bruins.
 
 This site serves as a fan dashboard with recent games, upcoming schedule, and roster information.
 
@@ -20,7 +20,7 @@ This site serves as a fan dashboard with recent games, upcoming schedule, and ro
 
 - HTML5
 - CSS3 (Grid & Flexbox)
-- No frameworks — built from scratch
+- JavaScript
 
 ---
 
@@ -33,13 +33,15 @@ bruins-fan-hq/
 │── styles.css
 │── bruinslogo.png
 │── README.md
-
+|── home.js
+|── roster.js
 ---
 
 ## 🎯 Goals of This Project
 
 - Practice building layouts without frameworks
 - Learn responsive design using CSS Grid
+- Implement JavaScript for DOM manipulation and interactivity
 - Improve comfort with Git & GitHub
 - Create a personal, meaningful front-end project
 
@@ -47,7 +49,6 @@ bruins-fan-hq/
 
 ## 🔮 Planned Improvements
 
-- Add JavaScript to dynamically render games and roster data
 - Pull real Bruins data from an external API
 - Add filters (wins/losses, home/away games)
 - Improve accessibility and mobile navigation
@@ -65,6 +66,7 @@ _(Coming soon)_
 - How CSS Grid handles responsive layouts
 - Why letting the layout control sizing prevents overflow issues
 - How to manage a project using Git from the command line
+- How to utilize JavaScript to loop through an array to build HTML elements based around a set of data
 
 ---
 
