@@ -22,33 +22,31 @@
     <main>
         <section class="forwards">
             <h2>Forwards</h2>
-            <div class="player-card-container">
-                <div class="player-card">David Pastrnak</div>
-                <div class="player-card">Morgan Geekie</div>
-                <div class="player-card">Elias Lindholm</div>
-                <div class="player-card">Pavel Zacha</div>
+            <div class="player-card-container forwards-container">
             </div>      
         </section>
         <section class="defense">
             <h2>Defensemen</h2>
-            <div class="player-card-container">
-                <div class="player-card">Charlie Mcavoy</div>
-                <div class="player-card">Nikita Zadorov</div>
-                <div class="player-card">Hampus Lindholm</div>
-                <div class="player-card">Mason Lohrei</div>
+            <div class="player-card-container defensemen-container">
             </div>      
         </section>
         <section class="goalies">
             <h2>Goalies</h2>
-            <div class="player-card-container">
-                <div class="player-card">Jeremy Swayman</div>
-                <div class="player-card">Jonas Korpisalo</div>
-                <div class="player-card">Michael Dipietro</div>
+            <div class="player-card-container goalies-container">
             </div>      
         </section>
     </main>
     <footer>
         <p>&copy; 2025 Bruins Fan HQ. All rights reserved.</p>
     </footer>
+    <div class="modal-overlay" id="playerModal" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Close">Close</button>
+            <h3 id="modalTitle"></h3>
+            <p id="modalBody"></p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
