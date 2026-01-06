@@ -1,5 +1,5 @@
 const recentGames = [
-    {opponent: "Canucks", location: "Away", result: "Win", score: "3-2"},
+    {opponent: "Canucks", location: "Away", result: "OT Win", score: "3-2"},
     {opponent: "Oilers", location: "away", result: "Win", score: "6-2"},
     {opponent: "Flames", location: "away", result: "OT Loss", score: "2-1"},
     {opponent: "Sabres", location: "away", result: "Loss", score: "4-1"},

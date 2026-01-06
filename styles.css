@@ -151,6 +151,11 @@ footer {
     font-weight: bold;
 }
 
+.game-card.game-card.ot-win {
+    border-color: green;
+    font-weight: bold;
+}
+
 .game-card.loss {
     border-color: red;
     font-weight: bold;
