@@ -1,9 +1,9 @@
 const recentGames = [
-    {opponent: "Canucks", location: "Away", result: "OT Win", score: "3-2"},
-    {opponent: "Oilers", location: "away", result: "Win", score: "6-2"},
-    {opponent: "Flames", location: "away", result: "OT Loss", score: "2-1"},
-    {opponent: "Sabres", location: "away", result: "Loss", score: "4-1"},
-    {opponent: "Canadiens", location: "home", result: "Loss", score: "6-2"},
+    {opponent: "Kraken", location: "home", result: "Win", score: "4-2"},
+    {opponent: "Red Wings", location: "home", result: "Win", score: "3-0"},
+    {opponent: "Penguins", location: "home", result: "Win", score: "1-0"},
+    {opponent: "Rangers", location: "home", result: "Win", score: "10-2"},
+    {opponent: "Flames", location: "home", result: "Win", score: "4-1"},
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
