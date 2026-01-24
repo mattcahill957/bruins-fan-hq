@@ -1,9 +1,9 @@
 const recentGames = [
+    {opponent: "Golden Knights", location: "home", result: "win", score: "4-3"},
+    {opponent: "Stars", location: "away", result: "Loss", score: "6-2"},
     {opponent: "Kraken", location: "home", result: "Win", score: "4-2"},
     {opponent: "Red Wings", location: "home", result: "Win", score: "3-0"},
     {opponent: "Penguins", location: "home", result: "Win", score: "1-0"},
-    {opponent: "Rangers", location: "home", result: "Win", score: "10-2"},
-    {opponent: "Flames", location: "home", result: "Win", score: "4-1"},
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
