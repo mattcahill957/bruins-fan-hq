@@ -13,7 +13,6 @@ const playerCards = [
     {id: 12, name: "Fraser Minton", position: "C", number: 93, country: "Canada", height: "6'2\"", weight: 204},
     {id: 13, name: "Casey Mittelstadt", position: "C", number: 11, country: "USA", height: "6'1\"", weight: 205},
     {id: 14, name: "Alex Steeves", position: "C", number: 21, country: "USA", height: "6'0\"", weight: 199},
-    {id: 15, name: "Jeffrey Viel", position: "LW", number: 48, country: "Canada", height: "6'1\"", weight: 214},
     {id: 16, name: "Pavel Zacha", position: "C", number: 18, country: "Czech Republic", height: "6'4\"", weight: 211},
     {id: 17, name: "Jonathon Aspirot", position: "D", number: 45, country: "Canada", height: "6'0\"", weight: 205},
     {id: 18, name: "Jordan Harris", position: "D", number: 43, country: "USA", height: "6'0\"", weight: 189},
